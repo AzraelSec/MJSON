@@ -6,7 +6,8 @@ namespace Menagement.JSON
 {          
     public static class JSON_Object
     {
-    
+
+#if  DEBUG
         public static void Main()
         {
 			try
@@ -18,13 +19,14 @@ namespace Menagement.JSON
                 	foreach(DictionaryEntry d in t)
                     	Console.WriteLine(d.Key.ToString());
             	else
-                	Console.WriteLine("Non va un cazzo, amico =.=");		
+                	Console.WriteLine("Doesn't work! -.-");		
 			}
 			catch(Exception e)
 			{
 					Console.WriteLine(e.Message);
 			}
         }
+#endif
         
         private const int JSON_TOKEN_NONE = 1;
         private const int JSON_CURLY_OPEN = 2;
