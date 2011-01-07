@@ -1,0 +1,9 @@
+                                                     __  __   ____  ___  _____  _  _ 
+                                                    (  \/  ) (_  _)/ __)(  _  )( \( )
+                                                     )    ( .-_)(  \__ \ )(_)(  )  ( 
+                                                    (_/\/\_)\____) (___/(_____)(_)\_)
+
+MJSON's a namespace created to manage the JSON objects (and in the future others JSON data-types) and theirs serializing and deserializing.
+At the moment this program let you deserialize objects and get a Hashtable data-type with your informations.
+I hope I'll have enough time to continue this project.
+Bye! ;)
